@@ -1,0 +1,61 @@
+body
+{
+    margin: 0;
+}
+header
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-right: 45%;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    color: black;
+}
+
+a:hover
+{
+    color:red
+}
+
+.nav-obj
+{
+    text-decoration: none; 
+    color: brown;
+}
+
+
+main
+{
+    margin-left: 2%;
+}
+
+.post
+{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+th, td
+{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+
+footer 
+{
+    background-color: black;
+    padding: 16px;
+    /*margin-top: 165px;*/ 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    color: white;
+    text-align: center;
+}
